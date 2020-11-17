@@ -1,0 +1,33 @@
+#header {
+    max-width: 600px;
+    height: 74px;
+    background-color: #eaeced;
+}
+
+#principal-logo {
+    float: left;
+    margin-top: 30px;
+    margin-right: 332px;
+}
+
+#menu-list {
+    list-style: none;
+    padding: 0; 
+}
+
+#menu-list li {
+    margin-top: 30px;
+    float: left; 
+}
+
+#menu-list li + li {
+    margin-left: 22px;
+}
+
+#menu-list a {
+    font-size: 0.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #888888;
+}

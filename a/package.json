@@ -1,0 +1,17 @@
+{
+  "name": "Template-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w sass -o public/css",
+    "sass-build": "node-sass sass -o public-build/css --output-style compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "run": "^1.4.0",
+    "sass": "^1.27.0"
+  }
+}

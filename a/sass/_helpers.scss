@@ -1,0 +1,13 @@
+.wrapper {
+    max-width: 600px;
+    height: 695px;
+    margin: 0 auto; 
+    background-color: white;
+    border-bottom: 30px solid #eaeced ;
+}
+ 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table; 
+}

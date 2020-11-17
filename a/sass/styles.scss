@@ -1,0 +1,24 @@
+// global and helpers
+
+@import "global";
+@import "helpers";
+
+// principal content - block 1
+
+@import "header";
+@import "slider";
+@import "box-main-1";
+
+// principal content - block 2
+
+@import "helpers-2";
+@import "slider-2";
+@import "free-box-main";
+
+// principal content - block 3
+
+@import "helpers-3";
+@import "our-box-main";
+@import "our-columns";
+
+
